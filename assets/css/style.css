@@ -702,3 +702,12 @@ strong{
     line-height: 40px;
     font-size: 24px;
 }
+
+.download p{
+    color: #B2B2B2;
+    font-size: 20px;
+}
+
+.download span{
+    font-size: 26px;
+} 
