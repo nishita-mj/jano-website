@@ -543,6 +543,7 @@ strong{
 }
 
 .million p{
+    color: black !important;
     font-size: 18px;
 }
 
@@ -573,6 +574,7 @@ strong{
 }
 
 .compare p{
+    color: black !important;
     font-size: 18px;
     padding-top: 10px;
     line-height: 30px;
@@ -592,6 +594,7 @@ strong{
 }
 
 .claims p{
+    color: black !important;
     font-size: 18px;
     margin-bottom: 20px;
 }
@@ -687,6 +690,7 @@ strong{
 
 .application{
     margin-top: 150px;
+    margin-bottom: 100px;
 }
 
 .download h3{
@@ -711,3 +715,315 @@ strong{
 .download span{
     font-size: 26px;
 } 
+
+.play-store{
+    width: 190px;
+    height: 60px;
+    margin-top: 40px;
+    padding: 0 5px 0 25px;
+    background: #313131;
+    border-radius: 6px;
+    color: #fff;
+    text-align: left;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.play-store:hover{
+    transform: translateY(-5px);
+}
+
+.apple{
+    background: rgba(0, 0, 0, .09);
+    width: 190px;
+    height: 60px;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding: 0 5px 0 25px;
+    border-radius: 6px;
+    text-align: left;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.apple:hover{
+    transform: translateY(-5px);
+}
+
+.mobile-img{
+    position: relative;
+}
+
+.img-2{
+    position: absolute;
+    left: 200px;
+    top: 55px;
+    z-index: -1;
+}
+
+.round-arrow{
+    position: absolute;
+    top: 465px;
+    left: -215px;
+    z-index: 1;
+}
+
+.text{
+    width: 100%;
+    height: 52px;
+    background-color: white;
+    color: black;
+    border: 2px #e4e4e4 solid;
+    outline: none;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+.email{
+    width: 100%;
+    height: 52px;
+    background-color: white;
+    color: black;
+    border: 2px #e4e4e4 solid;
+    outline: none;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+
+.box-3{
+    background-color: white;
+    padding: 50px;
+}
+
+.message{
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    color: black;
+    border: 2px #e4e4e4 solid;
+    outline: none;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.msg-btn{
+    width: 100%;
+    height: 50px;
+    background-color: #FF3294;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.msg-btn:hover{
+    background-color: black;
+}
+
+.query{
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.query span{
+    color: black;
+    font-weight: 600;
+}
+
+.query p{
+    color: grey;
+}
+
+.advisor h2{
+    font-size: 63px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.headphone{
+    padding-left: 100px;
+}
+
+.advisor p{
+    font-size: 25px;
+    line-height: 40px;
+    padding-top: 20px;
+
+}
+
+.blue-color{
+    background-color: #f6f9fb;
+    padding: 170px;
+}
+
+.blog-btn{
+    width: 200px;
+    height: 50px;
+    background-color: #FF3294;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    border: none;
+}
+
+.our-blog{
+    background-color: white;
+    padding: 140px;
+}
+
+.our-blog h2{
+    font-size: 54px;
+    font-weight: 500;
+}
+
+.blog-img{
+    margin-top: 100px;
+}
+
+.read-btn{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    color: var(--prime-ten);
+    font-weight: 500;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    border: 1px var(--prime-ten) solid;
+    background-color: white;
+    font-size: 17px;
+}
+
+.read-btn:hover{
+    color: white;
+    background: var(--prime-ten);
+}
+
+.date p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.date h3{
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.date h3:hover{
+    color: #00bde6;
+    transition: all 0.3s linear;
+}
+
+.bg-color{
+    background-color: #1E1E1E;
+    padding: 140px;
+}
+
+.best p{
+    color: #BFBFBF;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.best span{
+    color: #636363;
+}
+
+.f-link h3{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.f-link ul li{
+    color: #BFBFBF;
+    margin-top: 20px;
+}
+
+.f-services h3{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.f-services ul li{
+    color: #BFBFBF;
+    margin-top: 20px;
+}
+
+.f-address h3{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.f-address p{
+    font-size: 20px;
+    color: #BFBFBF;
+    margin-top: 20px;
+    line-height: 40px;
+}
+
+.facebook{
+    width: 40px;
+    height: 40px;
+    background-color: #63636373;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.facebook i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    padding-top: 7px;
+}
+
+footer{
+    position: relative;
+}
+
+.rgt-img{
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    bottom: 0;
+
+}
+
+.lft-img{
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    bottom: 0;
+}
